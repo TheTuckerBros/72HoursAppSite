@@ -12,6 +12,7 @@ var browserSync = require("browser-sync").create();
 var banner = [
   "/*!\n",
   " * 72 Hours App",
+  " */\n",
   " * Copyright 2018-" + new Date().getFullYear(),
   " <%= pkg.author %>\n",
   " */\n",
