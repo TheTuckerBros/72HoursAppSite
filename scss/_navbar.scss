@@ -5,7 +5,7 @@
   @include transition-all;
   @include heading-font;
   .navbar-brand {
-    color: #ffffff;
+    color: $gray-darker;
     @include heading-font;
     &:hover,
     &:focus {
@@ -44,7 +44,7 @@
     border-color: transparent;
     background-color: transparent;
     .navbar-brand {
-      color: $gray-darker;
+      color: white;
       &:hover,
       &:focus {
         color: $theme-primary;
